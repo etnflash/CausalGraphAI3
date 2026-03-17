@@ -1,0 +1,178 @@
+{
+  "version": "1.0",
+  "description": "ESG (Environmental, Social, Governance) domain ontology for concept grounding",
+  "concepts": [
+    {
+      "id": "esg:GHGEmissions",
+      "label": "Greenhouse Gas Emissions",
+      "category": "Environmental",
+      "aliases": ["GHG", "carbon emissions", "CO2 emissions", "Scope 1", "Scope 2", "Scope 3"],
+      "definition": "Gases that trap heat in the atmosphere, including CO2, methane, and nitrous oxide, emitted directly or indirectly by an organisation.",
+      "unit_examples": ["tCO2e", "MtCO2e", "ktCO2e"]
+    },
+    {
+      "id": "esg:EnergyConsumption",
+      "label": "Energy Consumption",
+      "category": "Environmental",
+      "aliases": ["energy use", "electricity consumption", "fuel consumption", "energy intensity"],
+      "definition": "Total energy consumed by an organisation from all sources, including electricity, heat, and fuel.",
+      "unit_examples": ["MWh", "GWh", "GJ", "TJ"]
+    },
+    {
+      "id": "esg:RenewableEnergy",
+      "label": "Renewable Energy",
+      "category": "Environmental",
+      "aliases": ["clean energy", "solar energy", "wind energy", "green energy", "renewable electricity"],
+      "definition": "Energy from sources that are naturally replenished, such as solar, wind, hydro, or geothermal.",
+      "unit_examples": ["MWh", "GWh", "%"]
+    },
+    {
+      "id": "esg:WaterUsage",
+      "label": "Water Usage",
+      "category": "Environmental",
+      "aliases": ["water consumption", "water withdrawal", "water intensity"],
+      "definition": "Volume of freshwater consumed or withdrawn by an organisation in its operations.",
+      "unit_examples": ["m3", "ML", "GL"]
+    },
+    {
+      "id": "esg:WasteGeneration",
+      "label": "Waste Generation",
+      "category": "Environmental",
+      "aliases": ["waste produced", "solid waste", "hazardous waste", "non-hazardous waste"],
+      "definition": "Total amount of waste produced by an organisation, categorised by type and disposal method.",
+      "unit_examples": ["tonnes", "metric tons", "kg"]
+    },
+    {
+      "id": "esg:Biodiversity",
+      "label": "Biodiversity",
+      "category": "Environmental",
+      "aliases": ["ecosystem", "species protection", "habitat", "nature"],
+      "definition": "The variety of life in a particular habitat or ecosystem and an organisation's impact on it.",
+      "unit_examples": []
+    },
+    {
+      "id": "esg:CarbonNeutrality",
+      "label": "Carbon Neutrality",
+      "category": "Environmental",
+      "aliases": ["net zero", "carbon neutral", "climate neutral", "net-zero emissions"],
+      "definition": "Achieving a balance between emitting and absorbing carbon from the atmosphere.",
+      "unit_examples": []
+    },
+    {
+      "id": "esg:EmployeeSafety",
+      "label": "Employee Safety",
+      "category": "Social",
+      "aliases": ["occupational safety", "workplace safety", "health and safety", "TRIR", "LTIR"],
+      "definition": "Practices and outcomes related to the physical and psychological safety of employees at work.",
+      "unit_examples": ["incidents per 200,000 hours", "rate"]
+    },
+    {
+      "id": "esg:DiversityInclusion",
+      "label": "Diversity and Inclusion",
+      "category": "Social",
+      "aliases": ["D&I", "gender diversity", "workforce diversity", "inclusion", "equity"],
+      "definition": "Representation of and participation of different groups of individuals within an organisation.",
+      "unit_examples": ["%"]
+    },
+    {
+      "id": "esg:EmployeeWellbeing",
+      "label": "Employee Wellbeing",
+      "category": "Social",
+      "aliases": ["employee welfare", "worker wellbeing", "mental health", "employee benefits"],
+      "definition": "Programmes and outcomes related to the physical, mental, and financial wellbeing of employees.",
+      "unit_examples": []
+    },
+    {
+      "id": "esg:SupplyChain",
+      "label": "Supply Chain",
+      "category": "Social",
+      "aliases": ["value chain", "supplier", "procurement", "vendor management"],
+      "definition": "The network of organisations, people, activities, information, and resources involved in supplying a product.",
+      "unit_examples": []
+    },
+    {
+      "id": "esg:HumanRights",
+      "label": "Human Rights",
+      "category": "Social",
+      "aliases": ["labour rights", "forced labour", "child labour", "modern slavery"],
+      "definition": "Rights and freedoms that belong to every person, including protection from forced or child labour.",
+      "unit_examples": []
+    },
+    {
+      "id": "esg:CommunityEngagement",
+      "label": "Community Engagement",
+      "category": "Social",
+      "aliases": ["community investment", "social impact", "philanthropy", "local communities"],
+      "definition": "Interactions between an organisation and the communities in which it operates.",
+      "unit_examples": ["USD", "hours"]
+    },
+    {
+      "id": "esg:BoardComposition",
+      "label": "Board Composition",
+      "category": "Governance",
+      "aliases": ["board diversity", "board independence", "directors", "board structure"],
+      "definition": "The make-up of an organisation's board of directors, including diversity, independence, and expertise.",
+      "unit_examples": ["%", "number"]
+    },
+    {
+      "id": "esg:ExecutiveCompensation",
+      "label": "Executive Compensation",
+      "category": "Governance",
+      "aliases": ["CEO pay", "executive pay", "remuneration", "pay ratio"],
+      "definition": "The financial and non-financial benefits provided to senior executives, including salary, bonuses, and equity.",
+      "unit_examples": ["USD", "ratio"]
+    },
+    {
+      "id": "esg:RiskManagement",
+      "label": "Risk Management",
+      "category": "Governance",
+      "aliases": ["enterprise risk", "climate risk", "ESG risk", "risk framework"],
+      "definition": "Processes for identifying, assessing, and managing risks that could affect an organisation's objectives.",
+      "unit_examples": []
+    },
+    {
+      "id": "esg:AntiCorruption",
+      "label": "Anti-Corruption",
+      "category": "Governance",
+      "aliases": ["bribery", "corruption", "anti-bribery", "ethics", "integrity"],
+      "definition": "Policies and controls to prevent bribery and corrupt practices within the organisation and its value chain.",
+      "unit_examples": []
+    },
+    {
+      "id": "esg:DataPrivacy",
+      "label": "Data Privacy",
+      "category": "Governance",
+      "aliases": ["cybersecurity", "data protection", "GDPR", "privacy", "data breach"],
+      "definition": "Practices for protecting personal and sensitive data from unauthorised access or misuse.",
+      "unit_examples": []
+    },
+    {
+      "id": "esg:ESGReporting",
+      "label": "ESG Reporting",
+      "category": "Governance",
+      "aliases": ["sustainability reporting", "GRI", "TCFD", "SASB", "integrated reporting", "disclosure"],
+      "definition": "Public disclosure of an organisation's environmental, social, and governance performance and strategy.",
+      "unit_examples": []
+    },
+    {
+      "id": "esg:ClimateStrategy",
+      "label": "Climate Strategy",
+      "category": "Environmental",
+      "aliases": ["climate action", "decarbonisation", "climate targets", "Paris Agreement", "1.5°C"],
+      "definition": "An organisation's long-term plan to address climate change risks and opportunities, including emission reduction targets.",
+      "unit_examples": []
+    }
+  ],
+  "relations": [
+    "causes",
+    "contributes_to",
+    "increases",
+    "reduces",
+    "improves",
+    "worsens",
+    "measures",
+    "targets",
+    "reports_on",
+    "manages"
+  ]
+}
